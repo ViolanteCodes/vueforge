@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { resolve } from 'path';
-
 const sections = {
   'lp-hero': resolveComponent("LpHero"),
   'lp-features': resolveComponent("LpFeatures"),
