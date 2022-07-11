@@ -1,4 +1,11 @@
 <script setup lang="ts">
+const butter = useButter();
+
+const checkButterPage = await butter.getLandingPage()
+const checkButterMenu = await butter.getNavMenu()
+console.log(checkButterPage)
+console.log(checkButterMenu)
+
 const sections = {
   "lp-hero": resolveComponent("LpHero"),
   "lp-features": resolveComponent("LpFeatures"),
